@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/carddetails.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+</head>
+
+<body>
+    <div id="navbaradd">
+
+    </div>
+    <div id="container">
+
+
+        <div id="card">
+            <div id="master" class="box">
+                <img style="margin: 20px 0px 0px -20px;"
+                    src="https://static.zara.net/static/images/payment/payment/icon-payment-mastercard.svg" />
+                <br>
+                <h4 style="margin-left: 20px; margin-top: 0px;">MASTER CARD</h4>
+            </div>
+
+            <div id="inputdata">
+                <label for="">Card Name</label><br>
+                <input type="text" placeholder="Enter Card Name"><br><br>
+                <label for="">Card Number</label><br>
+                <input type="number" placeholder="Enter Card Number"><br><br>
+                <div id="internal">
+                    <label for="">Expiry</label><br>
+                    <input type="date"><br><br>
+                    <label style="margin: 10px 10px 0px 20px;" for="">CVV Number</label><br>
+                    <input type="number"><br><br>
+                </div>
+            </div>
+            <button>Continue</button>
+        </div>
+
+</body>
+
+</html>
+
+<script>
+    document.querySelector("button").addEventListener("click", cardfun);
+
+    function cardfun() {
+        console.log("this is file")
+        window.location.href = "/html/otp.html"
+    }
+
+</script>
+<script type="module">
+
+    import navbar from "/scripts/navbar.js";
+    let navbar_div = document.querySelector("#navbaradd")
+    navbar_div.innerHTML = navbar();
+
+</script>

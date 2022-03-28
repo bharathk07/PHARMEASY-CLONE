@@ -1,0 +1,63 @@
+#container > div {
+  border: 1px solid red;
+  width: 800px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#pay {
+  width: 700px;
+  height: 300px;
+  /* border: 1px solid rgb(223, 206, 206); */
+  display: flex;
+  margin-left: 50px;
+  padding: 20px 30px;
+  border-bottom: hidden;
+  margin-top: 50px;
+}
+.box > img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -20px;
+}
+.box:hover {
+  cursor: pointer;
+}
+#pay {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+#pay > div {
+  width: 125px;
+  height: 125px;
+  /* border: 1px solid red; */
+  text-align: center;
+  border-radius: 7px;
+}
+#paybox {
+  width: 650px;
+  height: 50px;
+  /* border: 1px solid rgb(199, 185, 185); */
+  margin-left: 50px;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: end;
+  border-top: hidden;
+}
+button {
+  width: 140px;
+  height: 25px;
+  padding: 10px 15px 30px 15px;
+  font-size: 17px;
+  background-color: rgb(192, 186, 186);
+  border: 0px;
+  border-radius: 7px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+}

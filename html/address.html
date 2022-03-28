@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <link rel="stylesheet" href="/styles/address.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div id="navbaradd">
+
+    </div>
+    <div id="container">
+        
+
+        <h1 style="margin-left: 50px; margin-bottom: -5px;
+        margin-top: 50px;">Address</h1><hr>
+        <div id="maindiv">
+            <div id="leftdiv">
+                <label for="">Name*</label><br>
+                <input type="text"><br><br>
+                <label for="">Email*</label><br>
+                <input type="email" name="" id=""><br><br>
+                <label for="">Mobile*</label><br>
+                <input type="number"><br><br>
+                <label for="">City*</label><br>
+                <select name="" id="select">
+                    <option value="">Select City</option>
+                    <option value="">Mumbai</option>
+                    <option value="">Hyderabad</option>
+                    <option value="">Bangalore</option>
+                    <option value="">Delhi</option>
+                    <option value="">Noida</option>
+                    <option value="">Gurugram</option>
+                    <option value="">Pune</option>
+
+                </select>
+            </div>
+            <div id="rightdiv">
+                <label for="">Address*</label><br>
+                <input type="text" name="" id=""><br><br>
+                <label for="">pincode*</label><br>
+                <input type="number"><br><br>
+                <label for="">Landmark*</label><br>
+                <input type="text"><br><br>
+                <label for="">Alternate Number</label><br>
+                <input type="number"><br><br>
+            </div>
+        </div>
+        <button>Move to Payment</button>
+       
+</body>
+
+</html>
+
+<script>
+    document.querySelector("button").addEventListener("click", addbtnfun);
+
+    function addbtnfun() {
+        window.location.href = "/html/payment.html"
+    }
+
+
+</script>
+<script type="module">
+
+    import navbar from "/scripts/navbar.js";
+    let navbar_div = document.querySelector("#navbaradd")
+    navbar_div.innerHTML = navbar();
+
+</script>

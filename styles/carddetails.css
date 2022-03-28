@@ -1,0 +1,44 @@
+#card{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(223, 221, 221);
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#inputdata>label{
+    font-size: 17px;
+    margin-left: 30px;
+}
+#inputdata>input{
+    font-size: 17px;
+    margin-left: 30px;
+    padding: 5px 10px;
+    width: 250px;
+    border-radius: 7px;
+}
+#internal{
+    display: flex;
+    margin-left: 10px;
+}
+#internal>input{
+    width: 100px;
+    border-radius: 7px;
+}
+#internal>label{
+    margin: 10px 10px 0px 20px;
+    /* background-color: teal; */
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(159, 173, 173);
+    margin-left: 370px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 7px;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(12, 219, 12);
+}

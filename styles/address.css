@@ -1,0 +1,45 @@
+#maindiv {
+    width: 800px;
+    height: 300px;
+    /* border: 1px solid teal; */
+    margin-left: 40px;
+    padding: 20px 30px;
+    display: flex;
+}
+
+#leftdiv {
+    width: 50%;
+    height: 100%;
+}
+
+#rightdiv {
+    width: 50%;
+    height: 100%;
+}
+
+#maindiv>div>label {
+    font-size: 18px;
+}
+
+#maindiv>div>input {
+    font-size: 17px;
+    padding: 5px 10px;
+    /* border-radius: 7px; */
+}
+
+button {
+    margin-left: 600px;
+    padding: 5px 10px;
+    width: 150px;
+    height: 40px;
+    background-color: turquoise;
+    border: 0px;
+    border-radius: 7px;
+}
+
+select {
+    width: 240px;
+    font-size: 17px;
+    padding: 5px 10px;
+    /* border-radius: 7px; */
+}
