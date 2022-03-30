@@ -7,7 +7,7 @@ const router = express.Router()
         return res.status(201).send(healthFooddrink)
      }
      catch(err){
-        return res.ststue(500).send({message:err.message})
+        return res.status(500).send({message:err.message})
      }
 
  })
@@ -18,7 +18,7 @@ const router = express.Router()
        return res.status(200).send(healthFooddrinks)
     }
     catch(err){
-       return res.ststue(500).send({message:err.message})
+       return res.status(500).send({message:err.message})
     }
 
 })
@@ -29,7 +29,7 @@ router.delete("/:id",async(req,res)=>{
        return res.status(200).send(healthFooddrink)
     }
     catch(err){
-       return res.ststue(500).send({message:err.message})
+       return res.status(500).send({message:err.message})
     }
 
 })
