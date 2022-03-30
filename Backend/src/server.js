@@ -1,3 +1,6 @@
+
+// checking
+
 const  connect  = require("./configs/db")
 const app = require("./backend")
 
@@ -11,3 +14,4 @@ app.listen(6000,async()=>{
 
     }
 })
+
