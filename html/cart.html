@@ -8,6 +8,7 @@
     <title>Cart</title>
     <link rel="stylesheet" href="/styles/cart.css">  
     <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/footer.css">
 </head>
 
 <body>
@@ -27,6 +28,9 @@
             <button id="checkbtn">Checkout</button>
         </div>
     </div>
+    <div id="indexfooter">
+
+    </div>
 </body>
 
 </html>
@@ -38,3 +42,9 @@
     navbar_div.innerHTML = navbar();
 
 </script>
+<script type="module">
+    import footer from "/scripts/footer.js";
+    // console.log(footer)
+    let indexfooter_div = document.querySelector("#indexfooter");
+    indexfooter_div.innerHTML = footer();
+  </script>
