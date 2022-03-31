@@ -1,14 +1,14 @@
 {
-  "name": "backend",
+  "name": "Backend",
   "version": "1.0.0",
   "description": "",
-  "main": "backend.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js"
+    "start":"nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
