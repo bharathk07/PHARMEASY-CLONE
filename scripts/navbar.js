@@ -36,7 +36,7 @@ function navbar(){
                     <button class="tab2">
                         <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt="">
                         Offers</button>
-                    <a href="/html/login.html"><button class="tab2">
+                    <a href="./signup.html"><button class="tab2">
                             <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="">
                             Login</button></a>
                             <a href="/html/cart.html"><button class="tab2">
