@@ -6,7 +6,7 @@
 
     function mycartarritems(cartitem) {
         
-        document.querySelector("#cartitemdiv").innerHTML = null;
+        document.getElementById("cartitemdiv").innerHTML=null;
 
         cartitem.map(function (el, index) {
 
