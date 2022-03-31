@@ -1,3 +1,4 @@
+
 const express = require("express");
 const connect = require("./configs/db");
 const userController = require("./controllers/user.auth.controller");
@@ -22,3 +23,21 @@ app.listen(6000, async () => {
     console.log({ errors: error.message });
   }
 });
+
+
+// checking
+
+const  connect  = require("./configs/db")
+const app = require("./backend")
+
+
+app.listen(5300,async()=>{
+    try{
+        await connect()
+        console.log("Connect to Port 5300...")
+    }
+    catch(err){
+        console.log(err.message)
+    }
+})
+
