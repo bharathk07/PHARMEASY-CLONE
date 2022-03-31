@@ -14,6 +14,7 @@ const router = express.Router()
 
  router.get("",async(req,res)=>{
     try{
+      
        const covids = await Covid.find().lean().exec()
        return res.status(200).send(covids)
     }
