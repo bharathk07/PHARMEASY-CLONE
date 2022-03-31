@@ -10,6 +10,24 @@
     <link rel="stylesheet" href="/styles/navbar.css">
     <style>
 
+
+
+        #container{
+            border:1px solid gray;
+            margin:auto;
+            margin-top: 40px;
+            width:50%;
+            align-items: center;
+        }
+        #address{
+            border-bottom:1px solid gray;
+            width:100%;
+            height: 60px;
+           text-align: center;
+            margin:auto;
+        }
+        
+
     </style>
 </head>
 
@@ -18,6 +36,7 @@
 
     </div>
     <div id="container">
+
 
 
         <h1 style="margin-left: 50px; margin-bottom: -5px;
@@ -55,6 +74,43 @@
                     <label for="">Alternate Number</label><br>
                     <input type="number" id="altnumber"><br><br>
                 </div>
+
+        
+        <div id="address">
+            <h1>Address</h1>
+        </div>
+      
+        <div id="maindiv">
+            <div id="leftdiv">
+                <label for="">Name*</label><br>
+                <input type="text"><br><br>
+                <label for="">Email*</label><br>
+                <input type="email" name="" id=""><br><br>
+                <label for="">Mobile*</label><br>
+                <input type="number"><br><br>
+                <label for="">City*</label><br>
+                <select name="" id="select">
+                    <option value="">Select City</option>
+                    <option value="">Mumbai</option>
+                    <option value="">Hyderabad</option>
+                    <option value="">Bangalore</option>
+                    <option value="">Delhi</option>
+                    <option value="">Noida</option>
+                    <option value="">Gurugram</option>
+                    <option value="">Pune</option>
+
+                </select>
+            </div>
+            <div id="rightdiv">
+                <label for="">Address*</label><br>
+                <input type="text" name="" id=""><br><br>
+                <label for="">pincode*</label><br>
+                <input type="number"><br><br>
+                <label for="">Landmark*</label><br>
+                <input type="text"><br><br>
+                <label for="">Alternate Number</label><br>
+                <input type="number"><br><br>
+
             </div>
             <button>Move to Payment</button>
         </form>
