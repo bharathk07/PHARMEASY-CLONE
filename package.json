@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "heroku": "^7.60.1"
+    "heroku": "^7.60.1",
+    "node": "^16.14.2"
   }
 }
