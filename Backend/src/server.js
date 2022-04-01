@@ -15,6 +15,7 @@ app.use("/products", productController);
 
 app.post("/register", register);
 app.post("/login", login);
+
 const healthcareDevicesController = require("./controllers/HealthcareDevice-controller");
 app.use("/HealthcareDevices", healthcareDevicesController);
 
@@ -30,7 +31,7 @@ app.use("/skincares", skincareController);
 const healthcaredataController = require("./controllers/healthcare-data-controller");
 app.use("/healthcaredata", healthcaredataController);
 
-const port = process.env.PORT || 5300;
+const port = process.env.PORT || 5400;
 app.listen(port, async () => {
   try {
     await connect();
