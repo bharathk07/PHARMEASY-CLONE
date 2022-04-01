@@ -4,6 +4,7 @@ const cors = require("cors");
 const { register, login } = require("./controllers/auth.controller");
 const userController = require("./controllers/user.auth.controller");
 const productController = require("./controllers/product.auth.controller");
+require("dotenv").config();
 
 const app = express();
 app.use(cors());

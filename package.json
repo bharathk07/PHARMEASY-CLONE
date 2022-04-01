@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.0",
     "heroku": "^7.60.1",
     "node": "^16.14.2"
   }
