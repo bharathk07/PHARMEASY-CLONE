@@ -7,7 +7,7 @@ const router = express.Router()
         return res.status(201).send(covid)
      }
      catch(err){
-        return res.ststue(500).send({message:err.message})
+        return res.status(500).send({message:err.message})
      }
 
  })
