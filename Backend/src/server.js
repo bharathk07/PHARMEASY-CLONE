@@ -1,8 +1,8 @@
 const express = require("express");
 const connect = require("./configs/db");
-const userController = require("./controllers/user.auth.controller");
-const { register, login } = require("./controllers/auth.controller");
 const cors = require("cors");
+const { register, login } = require("./controllers/auth.controller");
+const userController = require("./controllers/user.auth.controller");
 const productController = require("./controllers/product.auth.controller");
 
 const app = express();
