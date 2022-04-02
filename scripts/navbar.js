@@ -3,10 +3,8 @@ function navbar(){
     return ` <header id="nav-head">
         <div class="navbar">
             <div class="navbar-top">
-                <div class="navbar-logo">
-                <a href="./index.html">
-                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="Pharmeasy logo" />
-                </a>
+                <div class="navbar-logo">            
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="Pharmeasy logo" onclick="(location.href ='index.html')">            
                 </div>
                 <div class="navbar-search">
                     <div id="search-box">
