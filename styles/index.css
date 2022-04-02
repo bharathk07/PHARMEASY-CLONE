@@ -17,6 +17,7 @@ body {
 .navbar-logo {
   flex-basis: 15%;
   text-align: center;
+ 
 }
 .navbar-logo > img {
   width: 100%;
@@ -24,6 +25,7 @@ body {
 }
 .navbar-search {
   flex-basis: 70%;
+
 }
 .navbar-side {
   flex-basis: 15%;

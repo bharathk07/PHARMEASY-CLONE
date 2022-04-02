@@ -17,7 +17,7 @@
         <h1 style="margin:20px 0px -5px 50px;">Payment</h1>
         <hr>
 
-
+    </div>
         <div>
             <div id="pay">
                 <div class="box">
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div id="paybox">
-                <button>Continue</button>
+                <button id="continuebtn"  >Continue</button>
             </div>
         </div>
 
@@ -65,19 +65,23 @@
 </html>
 
 <script>
-    document.querySelector("button").addEventListener("click", btnfunction);
-
-    function btnfunction() {
-        window.location.href = "/html/carddetails.html"
-    }
+    document.getElementById("continuebtn").addEventListener("click", btnfunction);
+     function btnfunction() {
+        alert("Please Choose your Card")
+     }
 
     document.querySelector("#master").addEventListener("click", changebg);
 
     function changebg(event) {
-
-        event.target.style.color = "rgb(11, 72, 185)"
+        let div = document.getElementById("master")
+       
+        div.style="background-color:green;color:white"
+       
+        setTimeout(function(){
+        alert("Thanks for Choosing & plzz complete further steps")
+        window.location.href="/html/carddetails.html"
+        },1000)
     }
-
 </script>
 <script type="module">
 

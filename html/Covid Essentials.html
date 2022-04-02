@@ -258,6 +258,19 @@
 
     ]
 
+    let url = "http://localhost:5300/covids";
+    async function fetchapi() {
+        try {
+            let res = await fetch(url)
+            let covid_essentials = await res.json();
+            console.log("covid_essentials:",covid_essentials)
+            displaycoviditems(covid_essentials)
+        }
+        catch (err) {
+            console.log("err:", err)
+        }
+    }
+    fetchapi()
 
     mycartarr = JSON.parse(localStorage.getItem("CART")) ||  [];
     // mycartarr = [];

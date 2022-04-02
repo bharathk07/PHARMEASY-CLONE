@@ -20,7 +20,8 @@
 
   <body>
     <!-- nav bar starts here -->
-    <header id="nav-head">
+    <div id="phrameasynavbar">
+    <!-- <header id="nav-head">
       <div class="navbar">
         <div class="navbar-top">
           <div class="navbar-logo">
@@ -66,7 +67,8 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
+  </div>
     <!-- nav bar ends here -->
     <!-- slider window starts here -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -645,4 +647,12 @@
   // console.log(footer)
   let indexfooter_div = document.querySelector("#indexfooter");
   indexfooter_div.innerHTML = footer();
+</script>
+
+<script type="module">
+
+  import navbar from "/scripts/navbar.js";
+  let navbar_div = document.querySelector("#phrameasynavbar")
+  navbar_div.innerHTML = navbar();
+
 </script>

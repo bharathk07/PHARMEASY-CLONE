@@ -1,7 +1,6 @@
- #container {
+#container {
         width: 1024px;
-        height:656.42px;
-        /* border: 1px solid black; */
+        height: 100%;
         display: flex;
         margin: auto;
         justify-content: space-between;
