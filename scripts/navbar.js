@@ -4,7 +4,9 @@ function navbar(){
         <div class="navbar">
             <div class="navbar-top">
                 <div class="navbar-logo">
-                <a href="./index.html"><img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="Pharmeasy logo" /></a>
+                <a href="./index.html">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="Pharmeasy logo" />
+                </a>
                 </div>
                 <div class="navbar-search">
                     <div id="search-box">
