@@ -22,8 +22,8 @@ body {
   text-align: center;
 }
 
-.navbar-logo > img {
-  width: 10%;
+.navbar-logo >a> img {
+  width: 100%;
   padding: 5%;
 }
 
