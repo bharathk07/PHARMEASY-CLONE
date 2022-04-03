@@ -19,10 +19,9 @@ body {
 
 .navbar-logo {
   flex-basis: 15%;
-  text-align: center;
 }
 
-.navbar-logo img {
+.navbar-logo>a> img {
   width: 100%;
   padding: 5%;
 }
