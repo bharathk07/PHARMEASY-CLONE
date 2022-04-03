@@ -65,7 +65,7 @@ document.querySelector('.loginBtn').addEventListener('click',function(){
     }
 });
 function login() {
-  window.location.href = "/index.html";
+  window.location.href = "../index.html";
   alert("Now you are logged in")
     return;
 } 
