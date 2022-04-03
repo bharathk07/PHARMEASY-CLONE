@@ -2,9 +2,7 @@ function signupPage(){
     window.location.href = '/html/signup.html';
 }
 
-function homePage(){
-    window.location.href = '/html/index.html';
-} 
+
 
 // login validation
 
@@ -66,3 +64,8 @@ document.querySelector('.loginBtn').addEventListener('click',function(){
         }
     }
 });
+function login() {
+  window.location.href = "/html/index.html";
+  alert("Now you are logged in")
+    return;
+} 

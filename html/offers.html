@@ -2,14 +2,10 @@
 <html>
   <head>
     <title>Offers | PharmEasy</title>
-    <link rel="icon"
-      href="https://yt3.ggpht.com/ytc/AKedOLSuSHsPDawY82Xy9OklD3ktnoNxDqq5MhFBdjZ56g=s900-c-k-c0x00ffffff-no-rj"
-      type="x-icon">
     <link rel="stylesheet" href="/styles/offers.css" />
     <link rel="stylesheet" href="/styles/navbar.css" />
   </head>
   <body>
-    <div id="phrameasynavbar"></div>
     <main>
       <section>
         <div id="path">
@@ -20,12 +16,13 @@
         <div id="add-details"></div>
       </section>
     </main>
-    
   </body>
+  <script src="/scripts/offers.js"></script>
+  <script type="module">
+
+    import navbar from "/scripts/navbar.js";
+    let navbar_div = document.querySelector("#navbaradd")
+    navbar_div.innerHTML = navbar();
+
+  </script>
 </html>
-<script src="/scripts/offers.js"></script>
-<script type="module">
-  import navbar from "/scripts/navbar.js";
-  let navbar_div = document.querySelector("#phrameasynavbar")
-  navbar_div.innerHTML = navbar();
-</script>
