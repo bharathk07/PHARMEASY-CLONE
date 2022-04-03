@@ -36,6 +36,8 @@ We used the following resources:
 
 3.https://mdn.com
 
+4.https://pharmeasyapinodejs.herokuapp.com/covids
+
 We tried our best to create perfect cloned site, at first we decided to complete the user flow of the project that is user should see home page of the website,user should be able to signup and signin and user should be able to access the contents after completing the payment process.
 
 CHALLENGES WE FACED AND HOW WE SOLVED THEM
