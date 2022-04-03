@@ -30,7 +30,7 @@ document.querySelector('.loginBtn').addEventListener('click',function(){
                 check = true;
                 alert('Signed in successfully')
                 localStorage.setItem('userName',JSON.stringify(elem.name));
-                window.location.href = '/html/index.html';
+                window.location.href = '/index.html';
             }else{
                 if(flag !== 1){
                     check = false;
@@ -65,7 +65,7 @@ document.querySelector('.loginBtn').addEventListener('click',function(){
     }
 });
 function login() {
-  window.location.href = "/html/index.html";
+  window.location.href = "/index.html";
   alert("Now you are logged in")
     return;
 } 
