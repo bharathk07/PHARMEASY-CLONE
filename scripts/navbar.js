@@ -33,11 +33,11 @@ function navbar(){
             </div>
             <div class="navbar-button">
                 <div id="btn-nav">
-                <a href="./offers.html">
+                <a href="/html/offers.html">
                     <button class="tab2">
                         <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt="">
                         Offers</button></a>
-                    <a href="./signup.html"><button class="tab2">
+                    <a href="/html/signup.html"><button class="tab2">
                             <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="">
                             Login</button></a>
                             <a href="/html/cart.html"><button class="tab2">
@@ -47,7 +47,7 @@ function navbar(){
             </div>
         </div>
         </div>
-    </header>`
+    </header>`;
 
 }
 
