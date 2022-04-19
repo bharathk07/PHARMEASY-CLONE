@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   height: 75px;
-  width: 100%;
+  width: 80%;
 }
 
 .navbar-logo {
@@ -22,8 +22,8 @@ body {
   text-align: center;
 }
 
-.navbar-logo > img {
-  width: 100%;
+.navbar-logo >a > img {
+  width: 300px;
   padding: 5%;
 }
 
