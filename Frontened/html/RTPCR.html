@@ -8,9 +8,9 @@
     <link rel="icon"
       href="https://yt3.ggpht.com/ytc/AKedOLSuSHsPDawY82Xy9OklD3ktnoNxDqq5MhFBdjZ56g=s900-c-k-c0x00ffffff-no-rj"
       type="x-icon">
-    <link rel="stylesheet" href="/styles/RTPCR.css">
-    <link rel="stylesheet" href="/styles/footer.css">
-    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="../styles/RTPCR.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
 </head>
 
 <body>
@@ -88,7 +88,7 @@
 </html>
 <script type="module">
 
-    import footer from "/scripts/footer.js";
+    import footer from "./scripts/footer.js";
     console.log(footer)
     let RTPCRfooter_div = document.querySelector("#RTPCRfooter");
     RTPCRfooter_div.innerHTML = footer();
@@ -96,7 +96,7 @@
 </script>
 <script type="module">
 
-    import navbar from "/scripts/navbar.js";
+    import navbar from "../scripts/navbar.js";
     let navbar_div = document.querySelector("#navbaradd")
     navbar_div.innerHTML = navbar();
 

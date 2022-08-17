@@ -11,10 +11,10 @@
       type="x-icon">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <link rel="stylesheet" href="/styles/footer.css">
-    <link rel="stylesheet" href="/styles/healthslider.css">
-    <link rel="stylesheet" href="/styles/healthcaredata.css">   
-    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/healthslider.css">
+    <link rel="stylesheet" href="../styles/healthcaredata.css">   
+    <link rel="stylesheet" href="../styles/navbar.css">
 </head>
 
 <body>
@@ -131,11 +131,11 @@
 </html>
 <script type="module">
 
-    import footer from "/scripts/footer.js";
+    import footer from "./scripts/footer.js";
     let footer_div = document.querySelector("#allfooterdata");
     footer_div.innerHTML = footer();
 
-    import healthslider from "/scripts/healthslider.js";
+    import healthslider from "./scripts/healthslider.js";
     let healthslider_div = document.querySelector("#slider");
     healthslider_div.innerHTML = healthslider();
 
@@ -288,7 +288,7 @@ function displayhealthcaredataitems(healthcares_data){
 </script>
 <script type="module">
 
-    import navbar from "/scripts/navbar.js";
+    import navbar from "../scripts/navbar.js";
     let navbar_div = document.querySelector("#navbaradd")
     navbar_div.innerHTML = navbar();
 

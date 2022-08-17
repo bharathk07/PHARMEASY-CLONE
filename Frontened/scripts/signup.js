@@ -142,7 +142,7 @@ async function Register() {
 
     register_data = JSON.stringify(register_data);
 
-    let res = await fetch("https://pharmeasyapinodejs.herokuapp.com/register", {
+    let res = await fetch("https://pharmeasy-clone.herokuapp.com/register", {
       method: "POST",
 
       body: register_data,
@@ -152,7 +152,7 @@ async function Register() {
     });
 
     let data = await res.json();
-    window.location.href = "signin.html";
+    window.location.href = "./signin.html";
     console.log("data:", data);
   } catch (error) {
     console.log({ error });

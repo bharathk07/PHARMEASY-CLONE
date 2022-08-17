@@ -9,8 +9,8 @@
     <link rel="icon"
       href="https://yt3.ggpht.com/ytc/AKedOLSuSHsPDawY82Xy9OklD3ktnoNxDqq5MhFBdjZ56g=s900-c-k-c0x00ffffff-no-rj"
       type="x-icon">
-    <link rel="stylesheet" href="/styles/address.css">
-    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="../styles/address.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
     <style>
         #container {
             /* border: 1px solid gray; */
@@ -115,7 +115,7 @@
         if (email != "" && name != "" && mobileno != "" && city != "" && address != "" && pincode != "" && landmark != "" && altnumber != "") {
             if (mobileno.length == 10) {
                 alert("Your address details are filled Successfully")
-                window.location.href = "/html/payment.html"
+                window.location.href = "./payment.html"
             }
             else {
                 let completeaddress = new addressdetails(name, email, mobileno, city, address, pincode, landmark, altnumber)
@@ -132,7 +132,7 @@
 </script>
 <script type="module">
 
-    import navbar from "/scripts/navbar.js";
+    import navbar from "../scripts/navbar.js";
     let navbar_div = document.querySelector("#navbaradd")
     navbar_div.innerHTML = navbar();
 

@@ -9,12 +9,12 @@
         <link rel="icon"
       href="https://yt3.ggpht.com/ytc/AKedOLSuSHsPDawY82Xy9OklD3ktnoNxDqq5MhFBdjZ56g=s900-c-k-c0x00ffffff-no-rj"
       type="x-icon">
-        <link rel="stylesheet" href="/styles/medicine.css">
+        <link rel="stylesheet" href="../styles/medicine.css">
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-        <link rel="stylesheet" href="/styles/footer.css">
-        <link rel="stylesheet" href="/styles/reviewslider.css">
-        <link rel="stylesheet" href="/styles/navbar.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/reviewslider.css">
+        <link rel="stylesheet" href="../styles/navbar.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
         <style>
 
@@ -349,19 +349,19 @@
 </html>
 <script type="module">
 
-    import reviewslider from "/scripts/reviewslider.js";
+    import reviewslider from "./scripts/reviewslider.js";
     // console.log(reviewslider)
     let reviewslider_div = document.querySelector("#reviewtextslider");
     reviewslider_div.innerHTML = reviewslider();
 
-    import footer from "/scripts/footer.js";
+    import footer from "../scripts/footer.js";
     let footer_div = document.querySelector("#allfooterdata");
     footer_div.innerHTML = footer();
 
 </script>
 <script type="module">
 
-    import navbar from "/scripts/navbar.js";
+    import navbar from "../scripts/navbar.js";
     let navbar_div = document.querySelector("#navbaradd1")
     navbar_div.innerHTML = navbar();
 
