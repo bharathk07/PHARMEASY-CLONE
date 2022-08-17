@@ -21,8 +21,7 @@
     "express": "^4.17.3",
     "heroku": "^7.60.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.9",
-    "node": "^16.14.2"
+    "mongoose": "^6.2.9"
   },
   "engines": {
     "node": "v16.14.2"
