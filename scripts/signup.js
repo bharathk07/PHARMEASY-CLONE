@@ -168,7 +168,7 @@ async function login() {
 
     loginData_str = JSON.stringify(loginData);
 
-    let res2 = await fetch("https://pharmeasyapinodejs.herokuapp.com/login", {
+    let res2 = await fetch("https://pharmeasy-clone.herokuapp.com/login", {
       method: "POST",
       body: loginData_str,
       headers: {
@@ -182,3 +182,5 @@ async function login() {
     console.log({ error });
   }
 }
+
+//https://pharmeasyapinodejs.herokuapp.com/
